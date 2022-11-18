@@ -1,0 +1,6 @@
+a UI created post
+**this is realized by using //addPost.html//**
+
+and there is a ##run.png## picture
+
+cheers

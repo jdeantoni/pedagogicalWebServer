@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IIW firs tests</title>
+        <link href="/static/css/iiwBlogStyle.css" rel="stylesheet"/>
+    </head>
+    <body>
+        
+        <div class="main" id="main">
+        <h1>Add your own post !</h1>
+        <form enctype="multipart/form-data" action="http://localhost:8080" method="post" id="postAdd">
+            <input type="text" id="title" name="title" placeholder="put your title here" required size="51"/><br/><br/>
+            <textarea name="content" form="postAdd" rows="20" cols="60" required placeholder="enter content here"></textarea><br/><br/>
+            <input type="file" id="myFile" name="picture"><br/><br/>
+            <input type="submit" value="Submit"/>
+        </form>
+        </div> 
+    </body>
+</html>
